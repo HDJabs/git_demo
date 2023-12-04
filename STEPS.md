@@ -20,3 +20,12 @@ step 4: update and commit the STEPS.md (what im about to do right now)
 step 5: checkout main branch, and update README
     git checkout main
     (update README)
+    git add README.md
+    git commit -m "step 5. updated the README"
+    git push
+
+step 6: merge the two branches
+    git checkout master
+    git add STEPS.md
+    git commit "step 6. updating steps, and about to merge"
+    git merge main
