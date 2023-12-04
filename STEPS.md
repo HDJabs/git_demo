@@ -17,4 +17,6 @@ step 4: update and commit the STEPS.md (what im about to do right now)
     git commit -m "step 4. pdate the STEPS.md file"
     git push
 
-step 5: checkout main branch, and add some nonsense
+step 5: checkout main branch, and update README
+    git checkout main
+    (update README)
