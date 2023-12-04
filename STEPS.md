@@ -27,5 +27,6 @@ step 5: checkout main branch, and update README
 step 6: merge the two branches
     git checkout master
     git add STEPS.md
-    git commit "step 6. updating steps, and about to merge"
+    git commit -m "step 6. updating steps, and about to merge"
+    git push
     git merge main
